@@ -1,0 +1,58 @@
+/* table{
+    width: 150px;
+    margin:auto;
+    border: 2px solid black
+}
+
+thead th {
+background-color: blueviolet;
+border: 2px solid black;
+}
+td,th{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+*/
+
+
+button{
+    background-color: purple;
+    color: aqua;
+
+}
+/*om du har musen på en knapp*/
+button:hover
+{
+    background-color: rgb(214, 39, 214);
+}
+/*om man vill färga när man håller musen på en knapp*/
+button:active{
+    background-color: rgb(254, 134, 254);
+}
+/*om du har klickat på en knapp*/
+button:visited{
+    background-color: blueviolet;
+}
+/*såhär gör man för att färga specifikt nånting inte alla ul/li*/
+ul li:last-child {
+    color: red;
+}
+/*samma med den här du skriver siffran, eller siffran och n*/
+ul li:nth-child(2n){
+    color: blue;
+
+}
+
+/*såhär om man vill välja alla förutom en specifik*/
+ul li:nth-child(n+2){
+    color: red;
+}
+/*om du markerar text så ändrar du markerad färg*/
+p::selection{
+    background-color: peru;
+}
+
+/*om du vill välja dom du vill, så skriver du classer på de du vill stylea */
+.myChoice {
+    color: green;
+}
